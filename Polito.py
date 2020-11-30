@@ -5,9 +5,9 @@ from telebot import types
 from string import Template
 from datetime import datetime
 #Bot Token
-bot = telebot.TeleBot('1445701370:AAEjrttL7DEBG9zwxaJvYO_OHYIufTAes40') #<- Insert your bot token
+bot = telebot.TeleBot('Enter-Bot-Token') #<- Insert your bot token
 #Forwarding gorup id
-group_id = '-416124068' #<- Insert your group id
+group_id = 'Enter Your Group ID' #<- Insert your group id
 #Database
 db = sqlite3.connect('student_db.db', check_same_thread=False)
 cursor = db.cursor()
