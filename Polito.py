@@ -33,11 +33,11 @@ def send_welcome(message):
 
     bot.send_message(message.chat.id, "Hello "
                      + message.from_user.first_name
-                     + ", i'm survey bot developed by TTPU student Parpikhodjaev Javokhirbek ", reply_markup=markup)
+                     + ", I'm survey bot developed by TTPU student PJ ", reply_markup=markup)
 #/about
 @bot.message_handler(commands=['about'])
 def send_about(message):
-    bot.send_message(message.chat.id, "This telegram bot Developed By Parpikhodjaev Javokhirbek")
+    bot.send_message(message.chat.id, "This telegram bot Developed By PJ")
 #/survey
 @bot.message_handler(commands=['survey'])
 def send_start(message):
