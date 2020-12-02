@@ -73,7 +73,7 @@ def process_level_step(message):
         itembtn1 = types.KeyboardButton('IT')
         itembtn2 = types.KeyboardButton('ME')
         itembtn3 = types.KeyboardButton('CIE')
-        itembtn4 = types.KeyboardButton('CS')
+        itembtn4 = types.KeyboardButton('AE')
         markup.add(itembtn1, itembtn2, itembtn3, itembtn4)
 
         msg = bot.send_message(message.chat.id, 'Choose your Faculty', reply_markup=markup)
